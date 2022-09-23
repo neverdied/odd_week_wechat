@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container" style="background-color: {{bgColor}};color: {{color}};">
+    <text class="title">{{week}}</text>
+    <image class="clock" style="transform: rotate({{nowPo}}deg);" src="../img/taiJi.png"></image>
+    <image class="pointer" src="../img/pointer.png"></image>
+    <text class="note">距离{{nextWeek}}还有{{disDay}}天</text>
+</view>
